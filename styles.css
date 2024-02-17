@@ -1,0 +1,68 @@
+/* CALUCLATOR MINI PROJECT (CSS CODE)*/
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    height: 450px;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.container .special1 {
+    width: 90%;
+    margin-left: 2px;
+}
+
+.container .special2 {
+    width: 120px;
+    margin-left: 15px;
+}
+
+.container input {
+    color: #fff;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+        5px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    background: transparent;
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.container form input {
+    text-align: right;
+    flex: 1;
+    font-size: 22px;
+    box-shadow: none;
+}
+
+.container .diff {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid orangered;
+}
+
+.container #diff {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid orangered;
+}
+
+.diff:hover {
+    background-color: orangered;
+}
+
+#diff:hover {
+    background-color: orangered;
+}
+
